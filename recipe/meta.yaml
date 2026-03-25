@@ -43,6 +43,7 @@ test:
     - clearml_agent
   requires:
     - pip
+    - setuptools
     - python {{ python_min }}
   commands:
     - pip check
