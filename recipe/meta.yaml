@@ -23,6 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
+    - setuptools
     - attrs >=18.0,<23.0.0
     - furl >=2.0.0,<2.2.0
     - jsonschema >=2.6.0,<5.0.0
