@@ -1,5 +1,5 @@
 {% set name = "clearml-agent" %}
-{% set version = "3.0.3" %}
+{% set version = "4.0.18" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/allegroai/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 754c7ff5b4d7a599f5ab276fd4cac378dd01d9edffe9e957875673a413c4369b
+  sha256: c43bad0a4046cf9596a2b9b698825ad4ca78851d11241f3613451f5b3a873e67
 
 build:
   noarch: python
